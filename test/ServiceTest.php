@@ -1,7 +1,7 @@
 <?php
 
 class ServiceTest extends ServiceBase {
-    private $params = array();
+    protected $params = array();
 
     public function __construct($params)
     {

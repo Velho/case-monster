@@ -14,7 +14,6 @@ $params = array(1, 2, 3, 4, 5);
  * // behind the scenes ServiceTest::do_service would be called.
  * Impl this on second branch
  */
-$service = new Service('test'); // ServiceTest
+$service = new Service('test', $params); // ServiceTest
 
-$object = $service->get_service($params);
-$object->do_service();
+$service->do_service();

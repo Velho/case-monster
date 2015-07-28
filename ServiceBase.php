@@ -4,6 +4,8 @@
  * Declares abstract base class for Services.
  */
 abstract class ServiceBase {
+    protected $params;
+
     public function __construct()
     {}
 
